@@ -1,5 +1,6 @@
 import React from 'react'
 import './Present.css';
+import Des from './components/deswcargar.jsx'
 
 export default function Present() {
   return (
@@ -13,10 +14,15 @@ export default function Present() {
               </h2>
             </div>
 
+
+            {/* tenes que descargar el cv no te olvides */}
+
             <div className='App-Buttons'>
               <button className='App-ButCV'> 
-                Descargar CV 
+                <Des/> Descargar CV 
               </button>
+
+              {/* aqui felcha arriba :D */}
               <a href='https://github.com/FrancoPlate/Porfolio.git' className='App-ButCircle'>
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" 
                 stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
