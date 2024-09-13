@@ -1,0 +1,67 @@
+
+.SoMi{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 50vh;
+    z-index: 1;
+}
+
+  
+.Sobre-span1 {
+    content: "";
+    position: absolute;
+    top: -5px;  /* Mueve el pseudo-elemento hacia la esquina */
+    left: -5px;  /* Mueve el pseudo-elemento hacia la esquina */
+    width: 65px;  /* Ancho del cuadrado */
+    height: 2px;  /* Alto del cuadrado */
+    background-color: var(--primary);  /* Color del cuadrado */
+    z-index: 1;  /* Asegura que el pseudo-elemento esté encima del borde */
+  }
+  
+  .Sobre-p {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    max-width: 750px;
+    font-size: 24px;
+    position: relative;
+    width: max-content;
+  }
+  
+  .Sobre-p p {
+    margin-bottom:5px;
+  }
+
+  .color{
+    color: aquamarine;
+  }
+  
+  .Sobre-span2 {
+    content: "";
+    position: absolute;
+    bottom: -5px;  /* Mueve el pseudo-elemento hacia la esquina */
+    right: -5px;  /* Mueve el pseudo-elemento hacia la esquina */
+    width: 65px;  /* Ancho del cuadrado */
+    height: 2px;  /* Alto del cuadrado */
+    background-color: var(--primary);  /* Color del cuadrado */
+    z-index: 1;  /* Asegura que el pseudo-elemento esté encima del borde */
+  }
+
+  @media screen and (max-width: 1000px){
+    .Sobre-p {
+      max-width: 600px;
+      font-size: 24px;
+    }
+  }
+  
+  @media screen and (max-width: 500px){
+    .Sobre-p {
+      max-width: 340px;
+      font-size: 21px;
+    }
+
+    .spa{
+      display: none;
+    }
+  }

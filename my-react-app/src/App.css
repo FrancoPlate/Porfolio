@@ -1,0 +1,91 @@
+:root {
+  --primary: #C13EFF;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background: linear-gradient(358deg, #33054a, #53007A);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-body {
+  background: linear-gradient(1deg, #1E022B, #33054a);
+  min-height: 100vh;
+  border-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  font-family: 'Roboto-Bold';
+}
+
+
+.App-Proye{
+  margin: 20vh 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.App-Conta{
+  
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.App-title{
+   display: flex;
+   align-items: center;
+   margin-bottom: 40px;
+}
+
+.App-title h2{
+  margin:0;
+  margin-bottom: 3px;
+}
+
+
+.App-imag {
+  height: 400px;
+  border-radius: 45%;
+  box-shadow: 0px 10px 20px 0px #ffffff3d; /*eje X, eje Y, difuminacion, desparramiento*/
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .img{
+    display: none;
+  }
+  
+}
