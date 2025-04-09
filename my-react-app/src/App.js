@@ -2,16 +2,13 @@ import foto from './images/imag.jpg';
 import './App.css';
 import Present from './components/Present.jsx';
 import {Card} from './components/Card.jsx';
-import Tegno from './components/Tegnolo.jsx'
-import SobreMi from './components/SobreMi.jsx'
+import Tegno from './components/Tegnolo.jsx';
+import SobreMi from './components/SobreMi.jsx';
 
 function App() {
   return (
     <div className="App">
       <head>
-        <h1>
-          hola
-        </h1>
       </head>
       <header className="App-header">
         <Present/>
