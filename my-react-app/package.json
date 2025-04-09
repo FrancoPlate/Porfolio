@@ -2,6 +2,7 @@
   "name": "my-react-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://francoplate.github.io/Porfolio/",
   "dependencies": {
     "@react-symbols/icons": "^1.2.5",
     "@testing-library/jest-dom": "^5.17.0",
@@ -37,4 +38,5 @@
       "last 1 safari version"
     ]
   }
+
 }
